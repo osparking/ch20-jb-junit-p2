@@ -22,6 +22,6 @@ public abstract class Flight {
 
   public abstract boolean addPassengers(Passenger passenger);
 
-  public abstract boolean remotePassengers(Passenger passenger);
+  public abstract boolean removePassengers(Passenger passenger);
 
 }
