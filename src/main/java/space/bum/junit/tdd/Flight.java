@@ -20,8 +20,8 @@ public abstract class Flight {
     return Collections.unmodifiableList(passengers);
   }
 
-  public abstract boolean addPassengers(Passenger passenger);
+  public abstract boolean addPassenger(Passenger passenger);
 
-  public abstract boolean removePassengers(Passenger passenger);
+  public abstract boolean removePassenger(Passenger passenger);
 
 }
